@@ -1,0 +1,34 @@
+### Sample input file for tracking algorithm
+
+# Experiment name
+exp_name traj-00004-2017-05-19-LNPS-N01-02-indiv
+
+# Video source file path relative to script location
+video_source ../data/00004.MTS
+
+# Number of termites to be tracked
+n_termites 2
+
+# Tracking method   ex. MIL, KCF, MEDIANFLOW, TLD
+method KCF
+
+# Bounding box initial size   ex.14
+box_size 17
+
+# Video source redimensioning size  ex. 640,480
+video_source_size 640,480
+
+# Display frame info
+show_frame_info True
+
+# Show bounding box
+show_bounding_box True
+
+# Show termite identification label   ex. True, False
+show_labels True
+
+# Highlight collisions   ex. True, False
+highlight_collisions True
+
+# Save output video   ex. True, False
+save_output True
